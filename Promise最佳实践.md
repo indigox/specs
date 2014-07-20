@@ -36,23 +36,3 @@ Promise 最佳实践
           function(err){
             console.error(err);
           };
-
-
-两个 Promise 标准
-=================
-
-Promise/A+
-----------
-Spec  
-<https://www.promisejs.org/>
-
-Implementing
-- promise  
-  <https://github.com/then/promise>
-
-
-Deferred
---------
-Implementing
-- jQuery.Deferred()  
-  <http://api.jquery.com/category/deferred-object/>
