@@ -1,1 +1,4 @@
-* [命名规范 （草稿 v0.1）](https://github.com/forhot2000/indigox/blob/master/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.md)
+* [命名规范（草稿 v0.1）](命名规范.md)
+* [Promise最佳实践](Promise最佳实践.md)
+
+[Markdown 语法参考](http://wowubuntu.com/markdown/)
