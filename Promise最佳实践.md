@@ -33,6 +33,10 @@ Promise 最佳实践
             wrap.inner = err;
             return Promise.reject(wrap);
           })
-          function(err){
+          .catch(function(err){
             console.error(err);
-          };
+          });
+
+4. 如何将一个普通的 promise 对象转成 angularjs $q 生成的 promise 对象
+
+        $q.when(asyncGet(...))
